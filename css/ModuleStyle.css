@@ -35,9 +35,9 @@ border-radius: 8px;
 
 
 .button {
-	box-shadow: 0px 1px 1px 0px #698279;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#3d94f6;
+	box-shadow: 0px 1px 1px 0px #9e7e38;
+	background:linear-gradient(to bottom, #bf9741 5%, #856b32 100%);
+	background-color:#bf9741;
 	border-radius:6px;
 	border: medium #337fed;
 	display:flex;
@@ -55,9 +55,9 @@ border-radius: 8px;
 }
 
 .buttonReturnToStart {
-	box-shadow: 0px 1px 1px 0px #698279;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#3d94f6;
+	box-shadow: 0px 1px 1px 0px #9e7e38;
+	background:linear-gradient(to bottom, #bf9741 5%, #856b32 100%);
+	background-color:#bf9741;
 	border-radius:6px;
 	border: medium #337fed;
 	display:inline-block;
@@ -73,9 +73,9 @@ border-radius: 8px;
 }
 
 .buttonCheckYourAnswer {
-	box-shadow: 0px 1px 1px 0px #698279;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#3d94f6;
+	box-shadow: 0px 1px 1px 0px #9e7e38;
+	background:linear-gradient(to bottom, #bf9741 5%, #856b32 100%);
+	background-color:#bf9741;
 	border-radius:6px;
 	border: medium #337fed;
 	display:inline-block;
@@ -128,7 +128,7 @@ border-radius: 8px;
 
 .checkbutton {
 	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background-color:#3d94f6;
+	background-color:#bf9741;
 	border-radius:6px;
 	border:1px solid #337fed;
 	display:inline-block;
@@ -160,7 +160,7 @@ border-radius: 8px;
 }
 
 .addButton {
-	box-shadow: 0px 1px 2px 0px #698279;
+	box-shadow: 0px 1px 2px 0px #9e7e38;
 	background-color: #1d8ca8;
 	border-radius:50%;
 	border:medium #054251;
@@ -176,7 +176,7 @@ border-radius: 8px;
 }
 
 .addButton:focus {
-	box-shadow: 0px 1px 1px 0px #698279;
+	box-shadow: 0px 1px 1px 0px #9e7e38;
 	background-color: #33cc00; 
 	border-radius:50%;
 	border:medium #054251;
@@ -409,12 +409,12 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
 #content #mainContent input[type=checkbox]:checked + label {
 	font-family: source-sans-pro, sans-serif;
 	font-weight: bold;
-	color:  #1e62d0;
+	color:  #856b32;
 }
 
 #content #mainContent .term {
 	font-weight: bold;
-	color:  #1e62d0;
+	color:  #856b32;
 }
 
 #content #mainContent .stepHighlightOff {
@@ -461,7 +461,7 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
 }
 
 #content #mainContent a {
-		color: #1e62d0;
+		color: #856b32;
 }
 
 #content #mainContent p {
@@ -557,37 +557,37 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
 #content #mainContent .lessonQuestion {
 	font-weight: bold;
 	padding: 24px 0px 0px 0px;
-	color: #1e62d0;
+	color: #856b32;
 }
 
 #content #mainContent .lessonQuestion2 {
 	font-weight: bold;
 	padding: 12px 0px 6px 0px;
-	color:#1e62d0;
+	color:#856b32;
 }
 
 #content #mainContent .lessonQuestionList {
 	font-weight: bold;
 	padding: 6px 0px 0px 0px;
-	color:#1e62d0;
+	color:#856b32;
 }
 
 #content #mainContent .checkboxFeedback {
 	font-weight: bold;
 	padding: 0px 0px 18px 0px;
-	color:#1e62d0;
+	color:#856b32;
 }
 
 #content #mainContent .lessonCheckboxQuestion {
 	font-weight: bold;
 	padding: 12px 0px 0px 0px;
-	color:#1e62d0;
+	color:#856b32;
 }
 
 #content #mainContent .lessonStepsQuestion {
 	font-weight: bold;
 	padding: 12px 0px 36px 0;
-	color:#1e62d0;
+	color:#856b32;
 }
 
 #content #mainContent .lessonHint{
