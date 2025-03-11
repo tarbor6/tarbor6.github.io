@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Lab3 - Anatomy of the Arm and Forearm</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab3 - Module 2 - Anatomy of the Arm and Forearm: Page 9 of 11</h1>			
+		</section>
+		<section id="mainContent">
+			<h2>Anterior Nerves of the Forearm</h2>
+			
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#forearm nerves"><img src="images/nerveartforearm.jpg" alt="forearm nerves" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="forearm nerves"><img src="images/nerveartforearm.jpg" alt="forearm nerves"/></a>
+			</table>
+			
+			<table class="lessonStepsTable">
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/b7ws2d" title="Posterior neck" style="color: white;"><button class="actionButton">Step 28</button></a></td>
+						<td valign="top" style="padding-top: 9px;">Add the <span class="term">Ulnar Nerve</span> which passes posterior to the medial epicondyle of the humerus, the ulnar nerve enters the forearm by passing between the two heads of the flexor carpi ulnaris muscle.  It descends deep to this muscle on the flexor digitorum profundus where it accompanies the ulnar artery near the middle of the forearm.  It becomes relatively superficial in the distal part of the forearm.  Near the pisiform bone it pierces the deep fascia and passes superficial to the flexor retinaculum. The branches of the ulnar nerve are:</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" style="padding-top: 9px;">
+						<br>
+						<br>The <span style="font-weight: bold">Articular branches</span> to the elbow joint. 
+						<br>
+						<br>The <span style="font-weight: bold">Muscular branches</span> to supply flexor carpi ulnaris and the medial half of the flexor digitorum profundus.
+						<br>
+						<br>The <span style="font-weight: bold">Superficial branch (palmar cutaneous branch)</span> supplies the skin of the medial palm and medial 1 ½ digits.
+						<br>
+						<br>The <span style="font-weight: bold">Dorsal cutaneous branch</span> supplies the posterior surface of the medial part of the hand and medial 1 ½ digits.
+						
+						<br><br><br>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table>
+				<tbody>
+					<tr height="60px;">
+						<td><span style="font-weight: bold">Ulnar Nerve Injury may result in extensive motor and sensory loss to the hand.  Patients may have difficulty in making a fist due to inability to flex their fourth and fifth digits at the distal interphalangeal joints.  The appearance of the hand is then known as claw hand.</span></td>
+						<img src="images/ulnarnerve.jpg" alt="Ulnar Nerve Distribution" style="width: 440px; max-width: 800px;"/>
+					</tr>
+				</tbody>
+			</table>
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 100%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q6')">?</button></td>
+						<td><p style="padding-left: 12px;">Is the Ulnar nerve effected by a Carpal Tunnel Syndrome?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q6" class="hidden">
+								<p class="questionBoxAnswer">Near the pisiform bone it pierces the deep fascia and passes superficial to the flexor retinaculum. Therefore it does not pass through the Carpal Tunnel</p>
+								<img src="images/carpaltunnel1.jpg" alt="Supination" style="width: 440px; max-width: 800px;"/>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+		
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab32-10.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
