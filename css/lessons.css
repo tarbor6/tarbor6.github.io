@@ -42,13 +42,13 @@ header {
   display: block;
   padding: .85rem;
   color: #fff;
-  background-color: #013951;
-  box-shadow: inset 0 -1px lighten(#013951, 3%);
+  background-color: #0d0d0d;
+  box-shadow: inset 0 -1px lighten(#0d0d0d, 3%);
   transition: all .25s ease-in;
   &:focus,
   &:hover {
     color: rgba(255,255,255,.5);
-    background: darken(#013951, 7%);
+    background: darken(#0d0d0d, 7%);
   }
 }
 .nav label {cursor: pointer;}
@@ -58,10 +58,10 @@ header {
 .group-list a,
 .group-list label {
   padding-left: 2rem;
-  background: #014E70;
-  box-shadow: inset 0 -1px lighten(#014E70, 7%);
+  background: #242424;
+  box-shadow: inset 0 -1px lighten(#242424, 7%);
   &:focus,
-  &:hover {background: darken(#014E70, 7%);}
+  &:hover {background: darken(#242424, 7%);}
 }
 /**
  * Styling second level list items
@@ -69,10 +69,10 @@ header {
 .sub-group-list a,
 .sub-group-list label {
   padding-left: 4rem;
-  background: #00608A;
-  box-shadow: inset 0 -1px lighten(#00608A, 7%);
+  background: #383838;
+  box-shadow: inset 0 -1px lighten(#383838, 7%);
   &:focus,
-  &:hover {background: darken(#00608A, 7%);}
+  &:hover {background: darken(#383838, 7%);}
 }
 /**
  * Styling third level list items
@@ -80,10 +80,10 @@ header {
 .sub-sub-group-list a,
 .sub-sub-group-list label {
   padding-left: 6rem;
-  background-color: #018BC7;
-  box-shadow: inset 0 -1px lighten(#018BC7, 7%);
+  background-color: #4a4a4a;
+  box-shadow: inset 0 -1px lighten(#4a4a4a, 7%);
   &:focus,
-  &:hover {background: darken(#018BC7, 7%);}
+  &:hover {background: darken(#4a4a4a, 7%);}
 }
 /**
  * Hide nested lists
