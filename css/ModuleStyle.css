@@ -112,9 +112,9 @@ border-radius: 8px;
 
 .actionButton:focus {
 	box-shadow:inset 0px 1px 0px 0px #B7B7B7;
-	background-color:#5976E9;
+	background-color:#048082;
 	border-radius:10px 10px;
-	border:1px solid #5976E9;
+	border:1px solid #048082;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
