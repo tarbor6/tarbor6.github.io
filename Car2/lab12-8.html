@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>MUS Lab1 - Module 2Lab1</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+				
+			
+		</script>
+	</head>
+<meta charset="utf-8">
+<title>MUS Lab1 - Module 2</title>
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+		<section id="headerContent">
+			<h1>Lab 1 - Module 2: Axilla - Page 8 of 8</h1>			
+		</section>
+		
+		<section id="mainContent">
+		  <h2>Axillary Lymph Nodes</h2>
+		
+				
+			<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#lymphflow"><img src="images/venouslymphflow.jpg" alt="Lymph Drainage" class="thumbnail" /></a></td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+			</table>
+			
+		  <a href="#_" class="lightbox" id="lymphflow"><img src="images/venouslymphflow.jpg" alt="Lymph Drainage"/></a>
+			
+			<table class="lessonStepsTable">
+				
+				<tbody>
+					<tr height="60px;">
+						<td valign="top" width="100px;"><a href="https://www.vhdissector.com/share/t8ncpk" title="Ax vein" style="color: white;"><button class="actionButton">Step 56</button></a></td>
+						<td valign="top" style="padding-top: 9px;">There are ~20-30 <span class="term">Axillary Lymph Nodes</span>, organized into five principal groups. Those of the 3D model are not divided into the following groups, but you can get a sense of this anatomy from the image and 3D model. (<em>We will explore the axillary lymph node groups in HSF 2B</em>).&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </td>
+					</tr>
+				</tbody>
+			</table>
+			<p>1.	The <span class="term">pectoral (anterior) group of axillary lymph nodes</span> receive lymph mainly from the anterior thoracic wall, including most of the breast.  Efferent vessels pass mainly to the central  nodes.</p>
+			<p>2. The <span class="term">lateral (humeral) group of axillary lymph nodes</span> receive lymph from most of the upper limb. Efferents pass to the central nodes.</p>
+			<p>3.	The <span class="term">subscapular (posterior) group of axillary lymph nodes</span> receive lymph from the posterior thoracic wall and scapular region.  Efferent vessels pass from these to the central nodes.</p>
+			<p>4.	The <span class="term">central group of axillary lymph nodes</span> receive lymph from the pectoral, lateral, and subscapular nodes. Efferent vessels from this group pass to the apical nodes.</p>
+			<p>5.	The <span class="term">apical (infraclavicular/subclavian) group of axillary lymph nodes</span> situated at the apex of the axilla, these nodes receive lymph from all other axillary groups.  Efferent vessels from this group unite to form the subclavian lymphatic trunk. On the right, it typically joins the jugular and bronchomediastinal trunks to form the right lymphatic duct.  On the left side, the subclavian lymphatic trunk typically drains into the thoracic duct.</p>
+	  </section>
+		
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="lab12-1.html"><button class="button">Return to Start</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2021 Version 2021.05.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD, Amanda Khan, PhD<br>
+			Modified by Tafline Arbor, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
