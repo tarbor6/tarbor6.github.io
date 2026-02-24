@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Neurology 1 - Blood Supply, Ventricles and Meninges</title>
+		<link href="../css/ModuleStyle.css" rel="stylesheet" type="text/css">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">	
+			function goBack() {
+    			window.history.back();
+			}
+		
+			function unhide(divID) {
+				var item = document.getElementById(divID);
+				if (item) {
+					item.className=(item.className=='hidden')?'unhidden':'hidden';
+				}
+			}
+			
+			$(document).ready(function() {
+				$("#step2").click(function(){$("#step2Y").toggleClass("stepHighlightOn");})
+				$("#step3").click(function(){$("#step3Y").toggleClass("stepHighlightOn");})	
+			});
+			
+			function unhide(divID) {
+			var item = document.getElementById(divID);
+			if (item) {
+				item.className=(item.className=='hidden')?'unhidden':'hidden';
+			}
+		}
+		
+		$(function () {
+        	$("#chkYes").click(function () {
+            	if ($(this).is(":checked")) {
+					$("#dvYes").show();
+				} else {
+					$("#dvYes").hide();
+            	}
+			});
+		});
+
+    	$(function () {
+			$("#chkNo").click(function () {
+            	if ($(this).is(":checked")) {
+               	 $("#dvNo").show();
+				} else {
+                	$("#dvNo").hide();
+				}
+        	});
+		});
+				
+			
+		</script>
+	</head>
+
+
+<body>
+	<div id="content">
+		<section id="headerBanner">
+			<header role="banner">
+				<a href="../lessons.html"><img src="../images/banner.png" alt="Albany Medical College Virtual Anatomy Lab" width="100%"></a>
+			</header>
+		</section>
+		
+
+		
+		<section id="headerContent">
+			<h1>Neurology Lab 1 - Module 1 - Meninges of the Brain and Spinal Cord: Page 3 of 4</h1>			
+		</section>
+		
+		
+			<div id="modal01" class="modal" onclick="this.style.display='none'">
+  				<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  				<div class="modal-content">
+    				<img id="img01" style="max-width:100%" alt="Image">
+ 		 		</div>
+			</div>
+		
+		<section id="mainContent">
+			
+			<!--<table style="padding: 0 15px; float: right;" width="40%">
+				<tbody>
+					<tr>
+						<td><a href="#spinaldura"><img src="images/spinaldura.jpg" alt="spinaldura" class="thumbnail" /> </a> </td>
+					</tr>
+					<tr>
+						<td align="center"><span style="font-size: 10pt;">Tap on image to enlarge</span></td>
+					</tr>
+				</tbody>
+				
+				<a href="#_" class="lightbox" id="spinaldura"><img src="images/spinaldura.jpg" alt="spinaldura"/></a>
+			</table>-->
+
+			
+			
+			
+			
+			<table class="questionBox" style="margin: 1em auto; margin-bottom: 24px; margin-top: 24px; width: 1000%;">
+				<tbody>
+					<tr valign="middle">
+						<td width="40px;"><button class="answerButton" onClick="unhide('Q1')">?</button></td>
+						<td><p style="padding-left: 12px;">What are the layers of the protective coatings of the spinal cord?</p></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="Q1" class="hidden">
+								<p class="questionBoxAnswer" style="margin-bottom: 6px;">Dura mater</p>
+								<p class="questionBoxAnswer" style="margin-bottom: 6px;">Arachnoid mater</p>
+								<p class="questionBoxAnswer" style="margin-bottom: 12px;">Pia mater</p>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+		
+		<p class="lessonText" style="margin: 12px 2%">Note how the protective layers change, with respect to the spinal cord, spinal nerves,spinal ganglia, at varying levels of the spinal cord.</p>
+		
+		<img src="images/spinaldura.jpg" alt="Nerve roots and meninmes at sacral level" style="max-width: 400px; width: 80%;">
+		
+					<div id="Y/N Question" class="questionBox" style="margin: 1em auto; margin-bottom: 0px; margin-top: 18px; width: 95%;">	
+					<p class="lessonQuestion" style="margin: 0 2%;">Does the spinal dura mater cover the spinal ganglion?</p>
+				
+					<p class="lessonQuestion"  style="margin: 0 3%;"><label for="yes"><input type="checkbox" id="chkYes" /> Yes</label></p>
+					<div id="dvYes" style="display: none"><p class="lessonText" style="margin-left: 18px;">Yes, the spinal dura mater covers the nerve bundle until it becomes the spinal nerve. This covering is called the dorsal root sheath or the dural sleeve.</p></div>
+					
+					<p class="lessonQuestion"  style="margin: 0 3%;"><label for="no"><input type="checkbox" id="chkNo" /> No</label></p>
+					<div id="dvNo" style="display: none"><p class="lessonText" style="margin-left: 18px; margin-bottom: 0px; color:red">Think this through again by looking at the accompanying illustration.</p></div>
+					<p> </p>
+					</div>
+				
+			
+		</section>
+		<section>
+			<table class="continueButtons" style="margin-top:100px;">
+				<tbody>
+				<tr height="200px" valign="top">
+		         	<td align="left"><button class="button" onclick="goBack()">Back</button></td>
+					<td align="center"><a href="../lessons.html"><button class="button">Return to Lessons Index</button></a></td>
+		        	<td align="right"><a href="neu13-4.html"><button class="button">Continue</button></a></td></tr>
+		 		</tbody>
+			</table>
+
+		</section>
+	</div>	
+</body>
+	
+<footer>
+	<div id="footerContent">
+		<p>©AMC 2020 Version 2020.11.01<br>
+		Original Development by Jeffrey Fahl, MD, Kyle Petersen, PhD, Richard Drake, PhD,  Alesha Petitt, MA, Claira Ralston, MS and Kim Price, MA<br>
+		Modified by Jeffrey Fahl, MD, Michael Smith, PhD<br>
+			Modified by Tafline Arbor, PhD<br>
+		Figures used with permission from Drake: Gray's Atlas of Anatomy, 2nd Edition (Resources)</p>
+	</div>
+</footer>
+</html>
